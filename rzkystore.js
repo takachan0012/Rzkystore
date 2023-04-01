@@ -400,9 +400,11 @@ let korekTokai = new List_items("DAPUR","TOKAI",1);
 let minyakSet = new List_items("DAPUR","MINYAK-SACHET",1);
 let nutriJel = new List_items("DAPUR","NUTRIJEL-AGAR",7);
 let sardenKal = new List_items("DAPUR","SARDEN",1);
+let sasa5000 = new List_items("DAPUR","SASA-5000",1);
+let sasa3000 = new List_items("DAPUR","SASA-3000",1);
 // LIST ITEMS DAPUR
 let listDapur = [
-  minyakPer,telur,beras,kecapBango,abcExtra,roycoAy,terasiAbc,terasiUleg,miki,minyak1L,gulaPthPer,mentegaSet,gulaPthSet,sasa500,korekKayu,roycoSapi,bonCabe,korekTokai,minyakSet,nutriJel,sardenKal
+  minyakPer,telur,beras,kecapBango,abcExtra,roycoAy,terasiAbc,terasiUleg,miki,minyak1L,gulaPthPer,mentegaSet,gulaPthSet,sasa500,korekKayu,roycoSapi,bonCabe,korekTokai,minyakSet,nutriJel,sardenKal,sasa5000,sasa3000
   ]
 
 // LIST OBJECT PERMEN
