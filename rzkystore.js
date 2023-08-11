@@ -13,9 +13,9 @@ function List_items(category,name,amount){
   }
 }
 //LIST_OBJECT ROKOK
-let laBold = new List_items("ROKOK","LA-BOLD",7);
+let laBold = new List_items("ROKOK","LA-BOLD",1);
 let mldBlack16 = new List_items("ROKOK","MLD-BLACK16",7);
-let djarcok = new List_items("ROKOK","DJARUM-COKLAT-KRETEK",1);
+let djarcok = new List_items("ROKOK","DJARUM-COKLAT-KRETEK",7);
 let super12 = new List_items("ROKOK","SUPER12",7);
 let super50 = new List_items("ROKOK","SUPER50",7);
 let signatureBlk = new List_items("ROKOK","SIGNATURE-BLACK",7);
@@ -37,7 +37,7 @@ let mbMerah = new List_items("ROKOK","MB-MERAH",7);
 let mbPutih = new List_items("ROKOK","MB-PUTIH",7);
 let sm12 = new List_items("ROKOK","SM12",7);
 let sm16 = new List_items("ROKOK","SM16",7);
-let smKrtk = new List_items("ROKOK","SM-KRETEK",1);
+let smKrtk = new List_items("ROKOK","SM-KRETEK",7);
 let smMenthol16 = new List_items("ROKOK","SM-MENTHOL-16",7);
 let esBerypop16 = new List_items("ROKOK","ESSE-BERRYPOP-16",7);
 let esApplemint = new List_items("ROKOK","ESSE-APPPLEMINT",7);
@@ -57,7 +57,7 @@ let cakra = new List_items("ROKOK","CAKRA-KRETEK",1);
 let laIcePurple = new List_items("ROKOK","LA-ICE-PURPLE",7);
 let kingSuper = new List_items("ROKOK","SUPER-KING",7);
 let langsep = new List_items("ROKOK","LANGSEP",7);
-let twizz = new List_items("ROKOK","TWIZZ",1);
+let twizz = new List_items("ROKOK","TWIZZ",7);
 let juaraJambu = new List_items("ROKOK","JUARA-JAMBU",7);
 let janaka = new List_items("ROKOK","JANAKA",1);
 // List Items ROKOK
@@ -67,7 +67,7 @@ let listRokok = [laBold,mldBlack16,djarcok,super12,super50,signatureBlk,ggMerah,
 // LIST OBJECK OBAT
 let vegeta = new List_items("OBAT","VEGETA",7);
 let konidin = new List_items("OBAT","KONIDIN",3);
-let neozep = new List_items("OBAT","NEOZEP",6);
+let neozep = new List_items("OBAT","NEOZEP",1);
 let panadoL_ijo = new List_items("OBAT","PANADOL-IJO",7);
 let viks_inhelar = new List_items("OBAT","VIKS44-INHELAR",1);
 let bejo_jahe = new List_items("OBAT","BEJO-JAHE-MERAH",6);
@@ -163,10 +163,10 @@ let pangpang = new List_items("SNACK","PANG-PANG",1);
 let astaga = new List_items("SNACK","ASTAGA",7);
 let pilusBbq = new List_items("SNACK","PILUS-BBQ",1);
 let kcgKulit = new List_items("SNACK","KACANG-KULIT",7);
-let rostaIjo = new List_items("SNACK","ROSTA-IJO",7);
+let rostaIjo = new List_items("SNACK","ROSTA-IJO",1);
 let moringPds = new List_items("SNACK","MORING-PEDAS",7);
 let kerupuk2000 = new List_items("SNACK","KERUPUK-2000",7);
-let kerupukBantet = new List_items("SNACK","KERUPUK-BANTET",7);
+let kerupukBantet = new List_items("SNACK","KERUPUK-BANTET",1);
 let dadaliCkr = new List_items("SANCK","DADALI-CIKUR",7);
 let basreng1000 = new List_items("SNACK","BASRENG-1000-PEDAS",7);
 let rostaMerah = new List_items("SNACK","ROSTA-MERAH",7);
@@ -192,7 +192,7 @@ let listSnack = [twist2000,chitatoLite,chitatoBbq,kuaciRebo,ajisuka,pangpang,ast
 
 // LIST OBJECT KUE DAN ROTI
 let sariGandumSandwice = new List_items("KUE-ROTI","SARI-GANDUM-SANDWICE",7);
-let roti2000 = new List_items("KUE-ROTI","ROTI-2000",7);
+let roti2000 = new List_items("KUE-ROTI","ROTI-2000",1);
 let rotiAoka = new List_items("KUE-ROTI","ROTI-AOKA",7);
 let marieTunggal = new List_items("KUE-ROTI","MARIE-TUNGGAL",1);
 let pastaKeju500 = new List_items("KUE-ROTI","PASTA-KEJU-500",7);
@@ -207,7 +207,7 @@ let regalDuoCkt = new List_items("KUE-ROTI","REGAL-DUO-COKLAT",1);
 let regalDuoKcg = new List_items("KUE-ROTI","REGAL-DUO-KACANG",7);
 let gery2000 = new List_items("KUE-ROTI","GERY-2000",7);
 let malkistCkt7k = new List_items("KUE-ROTI","MALKIST-COKLAT-7K",7);
-let betterKue = new List_items("KUE-ROTI","BETTER",7);
+let betterKue = new List_items("KUE-ROTI","BETTER",1);
 let wafelloCkt = new List_items("KUE-ROTI","WAFELLO-COKLAT-1000",7);
 let wafelloCaramel = new List_items("KUE-ROTI","WAFELLO-CARAMEL-1000",1);
 let chocoCkt1000 = new List_items("KUE-ROTI","CHOCOLATOS-COKLAT-1000",7);
@@ -235,10 +235,11 @@ let regal1000 = new List_items("KUE-ROTI","REGAL-MARIE-1000",1);
 let romaKelapa = new List_items("KUE-ROTI","ROMA-KELAPA",7);
 let romaSandwice = new List_items("KUE-ROTI","ROMA-SANDWICE-2000",7);
 let astor1000 = new List_items("KUE-ROTI","ASTOR-1000",7);
+let bonitaBolu = new List_items("KUE-ROTI","BONITA-BOLU",1);
 
 // LIST ITEMS KUE-ROTI
 let listKueRoti = [
-  sariGandumSandwice,roti2000,rotiAoka,marieTunggal,pastaKeju500,pastaCkt500,ardenKue,malkistCrackers7k,chocoKeju1000,time2000,slaiOlai2000,vegeChs,regalDuoCkt,regalDuoKcg,gery2000,malkistCkt7k,betterKue,wafelloCkt,wafelloCaramel,chocoCkt1000,nextar2000,superstar1000,malkistAbon1000,cokiCoki,kalpa2000,gorio500,nabati2000,malkistCkt1000,chocopie,bengWfer,gerycrackerKeju,oreoBolu,chocolatos500,nabatiRolls,oreoSandwice,bigrolKeju,malkistCrk1000,bigrolCkt,ahh1000,time1000,regal1000,romaKelapa,romaSandwice,astor1000
+  sariGandumSandwice,roti2000,rotiAoka,marieTunggal,pastaKeju500,pastaCkt500,ardenKue,malkistCrackers7k,chocoKeju1000,time2000,slaiOlai2000,vegeChs,regalDuoCkt,regalDuoKcg,gery2000,malkistCkt7k,betterKue,wafelloCkt,wafelloCaramel,chocoCkt1000,nextar2000,superstar1000,malkistAbon1000,cokiCoki,kalpa2000,gorio500,nabati2000,malkistCkt1000,chocopie,bengWfer,gerycrackerKeju,oreoBolu,chocolatos500,nabatiRolls,oreoSandwice,bigrolKeju,malkistCrk1000,bigrolCkt,ahh1000,time1000,regal1000,romaKelapa,romaSandwice,astor1000,bonitaBolu
   ];
 
 // LIST OBJECT KOPI
@@ -251,7 +252,7 @@ let nutrisariJP = new List_items("PERKOPIAN","NUTRISARI-JP",7);
 let sariwangiSet = new List_items("PERKOPIAN","SARIWANGI-SACHET",7);
 let dancowPutih = new List_items("PERKOPIAN","DANCOW-PUTIH",7);
 let creamyLate = new List_items("PERKOPIAN","CREAMY-LATE",7);
-let kapalMix = new List_items("PERKOPIAN","KAPAL-API-MIX",1);
+let kapalMix = new List_items("PERKOPIAN","KAPAL-API-MIX",7);
 let topAren = new List_items("PERKOPIAN","TOP-KOPI-GULA-AREN",7);
 let dancowCkt = new List_items("PERKOPIAN","DANCOW-COKLAT",7);
 let berasMerah = new List_items("PERKOPIAN","NESTLE-BERAS-MERAH",7);
@@ -266,10 +267,10 @@ let gilusMix = new List_items("PERKOPIAN","GILUS-MIX",7);
 let susuPutih = new List_items("PERKOPIAN","SUSU-PUTIH-SACHET",7);
 let gCarabian = new List_items("PERKOPIAN","GOODDAY-CARABIAN",7);
 let angetSuje = new List_items("PERKOPIAN","ANGETSARI-SUSU-JAHE",7);
-let susuCkt = new List_items("PERKOPIAN","SUSU-COKLAT-SACHET",1);
+let susuCkt = new List_items("PERKOPIAN","SUSU-COKLAT-SACHET",7);
 let gMerah = new List_items("PERKOPIAN","GOODDAY-MERAH",7);
 let energenCkt = new List_items("PERKOPIAN","ENERGEN-COKLAT",7);
-let gCkt = new List_items("PERKOPIAN","GOODDAY-COKLAT",7);
+let gCkt = new List_items("PERKOPIAN","GOODDAY-COKLAT",1);
 let indoCafe = new List_items("PERKOPIAN","INDOCAFE",7);
 let extraJoss = new List_items("PERKOPIAN","EXTRAJOSS",7);
 let amhMerah = new List_items("PERKOPIAN","AMH-JAHE-MERAH",7);
@@ -336,7 +337,7 @@ let milkuCkt = new List_items("MINUMAN","MILKU-CKT",7);
 let milkuStr = new List_items("MINUMAN","MILKU-STR",7);
 let bintangZero = new List_items("MINUMAN","BINTANG-ZERO",7);
 let krating = new List_items("MINUMAN","KRATINGDENG",7);
-let cingkuKal = new List_items("MINUMAN","CINGKU-KALENG",7);
+let cingkuKal = new List_items("MINUMAN","CINGKU-KALENG",1);
 let tehRio = new List_items("MINUMAN","TEH-RIO",1);
 let coLa = new List_items("MINUMAN","COCA-COLA",7);
 let uStr250 = new List_items("MINUMAN","ULTRA-STR-250",1);
@@ -373,7 +374,7 @@ let tehGelasBig = new List_items("MINUMAN","TEH-GELAS-BIG",7);
 let uCkt125 = new List_items("MINUMAN","ULTRA-CKT-125",7);
 let esTeler = new List_items("MINUMAN","ES-TELER",7);
 let cincauPand = new List_items("MINUMAN","CINCAU-PANDA",7);
-let monti1000 = new List_items("MINUMAN","MOUNTEA-1000",7);
+let monti1000 = new List_items("MINUMAN","MOUNTEA-1000",1);
 let kaki3BtlKcl = new List_items("MINUMAN","KAKI-3-BTL-KCL",7);
 let tehGelas1000 = new List_items("MINUMAN","TEH-GELAS-1000",7);
 let minral600 = new List_items("MINUMAN","MINRAL-600",7);
@@ -393,7 +394,7 @@ let indoRica = new List_items("MIE","INDO-RICA",1);
 let indoGentong = new List_items("MIE","INDO-EMPAL-GENTONG",1);
 let bihunSoto = new List_items("MIE","BIHUNKU-SOTO",7);
 let kariSpes = new List_items("MIE","SEDAAP-KARI-SPECIAL",7);
-let popmiAb = new List_items("MIE","POPMIE-AB",7);
+let popmiAb = new List_items("MIE","POPMIE-AB",1);
 let suksesKuah = new List_items("MIE","SUKSES-KUAH",7);
 let suksesGor = new List_items("MIE","SUKSES-GORENG",7);
 let popmiBaso = new List_items("MIE","POPMIE-BASO",1);
@@ -419,7 +420,7 @@ let listMie = [
 
 // LIST OBJECT DAPUR
 let minyakPer = new List_items("DAPUR","MINYAK-PERAPAT",7);
-let telur = new List_items("DAPUR","TELUR",7);
+let telur = new List_items("DAPUR","TELUR",1);
 let beras = new List_items("DAPUR","BERAS",1);
 let kecapBango = new List_items("DAPUR","KECAP-BANGO-1000",7);
 let abcExtra = new List_items("DAPUR","ABC-EXTRA-PEDAS",7);
